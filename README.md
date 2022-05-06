@@ -1,6 +1,10 @@
 # Personal linux configuration
 
 This script installs basic start packages and configuration.
-Use the script corresponding to the correct package manager.
+The packages to be installed is located inside the '''packages''' file.
 
-The script inside the '''configs''' folder updates the configuration inside the repo.
+
+Run install.sh to start the script and select the correct package manager.
+
+
+To update the configuration and not run the installer, run the '''update_local_configs.sh'''
