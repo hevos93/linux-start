@@ -31,10 +31,10 @@ do
 done
 
 #Install ohMyZsh
-#sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 #Copy zsh and neofetch configs
-#cp configs/zshConfig $HOME/.zshrc
-#cp configs/neofetchConfig $HOME/.config/neofetch/config.conf
+cp configs/zshConfig $HOME/.zshrc
+cp configs/neofetchConfig $HOME/.config/neofetch/config.conf
 
 rm tmp tmp2
